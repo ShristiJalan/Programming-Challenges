@@ -3,7 +3,9 @@ using namespace std;
 
 void pythagorian(int x, int y, int z)
 {
-    if ((x * x) == (y * y) + (z * z))
+    int a = max(x, (y, z));
+    int b, c;
+    if ((a * a) == (b * b) + (c * c))
     {
         cout << "pythagorian triplet" << endl;
     }
